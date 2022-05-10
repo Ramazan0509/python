@@ -6,7 +6,7 @@ __author__ = 'Magomedov Ramazan'
 # Осуществить вывод данных о пользователе одной строкой.
 def user_data_print(name, surname, birthday, city, email, phone):
     """Вывод данных о пользователе одной строкой"""
-    print(f'Данные о пользователе: Имя: {name}, Фамилия: {surname}, год рождения: {birthday}, город: {city}, адрес электронной почты: {email}, ноиер телефона: {phone}.')
+    print(f'Данные о пользователе: Имя: {name}, Фамилия: {surname}, год рождения: {birthday}, город: {city}, адрес электронной почты: {email}, номер телефона: {phone}.')
 
 
 user_data_print(name=input('Введите ваше имя: '),
@@ -14,4 +14,4 @@ user_data_print(name=input('Введите ваше имя: '),
                 birth_year=input('Введите ваш год рождения: '),
                 live_city=input('Введите ваш город проживания: '),
                 email=input('Введите ваш адрес электронной почты: '),
-                phone=input('Введите ваш ноиер телефона: '))
+                phone=input('Введите ваш номер телефона: '))

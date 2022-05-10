@@ -11,7 +11,7 @@ def user_data_print(name, surname, birthday, city, email, phone):
 
 user_data_print(name=input('Введите ваше имя: '),
                 surname=input('Введите вашу фамилию: '),
-                birth_year=input('Введите ваш год рождения: '),
-                live_city=input('Введите ваш город проживания: '),
+                birthday=input('Введите ваш год рождения: '),
+                city=input('Введите ваш город проживания: '),
                 email=input('Введите ваш адрес электронной почты: '),
                 phone=input('Введите ваш номер телефона: '))
